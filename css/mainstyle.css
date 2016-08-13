@@ -1,0 +1,113 @@
+/* For the "inset" look only */
+html {
+    overflow: auto;
+    cursor:pointer;
+}
+body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    cursor:pointer;
+}
+
+
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 15px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: currentColor; 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: currentColor; 
+}
+
+.sidebar{
+	background-color: gainsboro;
+}
+
+.badge{
+	background-color: brown;
+}
+
+.panel-body h3{
+	text-align: center;
+	color:maroon;
+	font-weight: bold;
+}
+
+.clearfix{
+	clear: both;
+
+}
+
+.registration-container{
+	width:100%;
+}
+
+.RegFormLeft span,.RegFormRight span{
+	
+	font-weight: bold;
+	text-decoration: underline;	
+}
+
+.RegFormLeft{
+	width: 48%;
+	float:left;
+
+}
+
+.RegFormRight{
+	width: 50%;
+	float:right;
+}
+
+.RegFormLeft2{
+	width:50%;
+	float: left;
+}
+
+.RegFormRight input:nth-child(2),.RegFormLeft input:nth-child(2){
+	margin-bottom:2px;
+}
+
+.RegFormLeft2 input{
+    width:60%;
+}
+
+.form-inline label{
+	width :100px;
+}
+
+.form-inline .form-control {
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+    margin-top:2px;
+ }
+
+ .dob{
+ 	width:16%;
+ 	font-weight: bold;
+ }
+
+legend{
+	font-weight: bolder;
+}
+
+
+.btn-formsubmit{
+
+	width:100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.btn-formsubmit button{
+
+	margin-right: 2%;
+	width:10%;
+	font-weight: bold;
+
+}	
